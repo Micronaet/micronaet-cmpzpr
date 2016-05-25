@@ -31,6 +31,7 @@
         'base',
         'sale',
         'sale_stock',
+        'crm',
         'menuitem_agent', # for agent menu (TODO move in another module?)
         'web_m2x_options', # for options
         ],

@@ -61,6 +61,22 @@
             action="action_sale_order_form_agent_form"
             sequence="10"
             />        
+
+        <menuitem 
+            name="Leads" 
+            id="menu_crm_leads" 
+            parent="menuitem_agent.menu_sale_agent_order" 
+            sequence="13"
+            action="crm.crm_case_category_act_leads_all"/>
+                
+        <menuitem 
+            name="Opportunities" 
+            id="menu_crm_opportunities" 
+            parent="menuitem_agent.menu_sale_agent_order" 
+            sequence="14"
+            action="crm.crm_case_category_act_oppor11"
+            />
+
         <menuitem 
             parent="menuitem_agent.menu_sale_agent_order" 
             id="menu_sale_order_quotation_tree_agent" 
